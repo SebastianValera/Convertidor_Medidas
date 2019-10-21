@@ -5,19 +5,28 @@ import java.math.MathContext;
 
 public class Calculo {
     /**
-     *
+     *Clase dedicada a realizar la conversion entre medidas retorno el resultado en texto
      * @param PosicionDe: Parametro dedicado a indicar la posición del primer combo
      * @param PosicionA: Parametro dedicado a indicar la posición del segundo combo
      * @param DatoDbl: Dato base a la hora de hacer la conversión
      * @return El nuevo valor obtenido de la conversión
      */
     public String Calculo(int PosicionDe, int PosicionA, double DatoDbl){
+        //Se declaran variables
+        //Se declara variable dedicada a manerar cantidades con muchos decimales recibiendo
+        //como dato el valor ingresado por el usuario
         BigDecimal Dato = new BigDecimal (DatoDbl);
+        //Se declara variable dedicada a almacenar cantidades largas por default a la hora de convertir
         BigDecimal constante;
+        //Se declara variable dedicada a almacenar el resultado obtenido de la conversion
         BigDecimal conversion = new BigDecimal(0);
+        //Si las posiciones de ambos combos es la misma
+        //(dando a entender que es el mismo tipo de longitud)
         if(PosicionDe == PosicionA){
+            //Se coloca el mismo dato colocado en el editText
             conversion = Dato;
         }else{
+            //Si no verifica que tipo de longitud sera la base de conversion
             switch (PosicionDe){
                 case 0: //Kilometro
                     switch (PosicionA){
@@ -398,6 +407,7 @@ public class Calculo {
                     break;
             }
         }
+        //Regresa transformado a texto el valor obtenido de la conversion
         return conversion.toString();
     }
 }
