@@ -9,7 +9,7 @@ Con una sencilla interfaz, la aplicación funciona colocando en el campo de text
   
 ![](https://raw.githubusercontent.com/SebastianValera/Convertidor_Medidas/master/Screenshots/Aplicacion.bmp)
 
-Video de prueba:
+### Video de prueba
 En el proyecto se encuentra un video de prueba de ejecución llamado "Proyecto_Convertidor_Medidas.mp4".
 
 ## Planes a Futuro
