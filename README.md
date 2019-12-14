@@ -16,4 +16,4 @@ Se tiene contemplado extender el catálogo de medidas a convertir, expandiendo e
 Humberto Sebastián Valera Castro
 
 ## Estatus de desarrollo
-De momento, el desarrollo de este esta detenido, aunque contemplado para continuar en el futuro.
+Finalizado.
