@@ -9,6 +9,9 @@ Con una sencilla interfaz, la aplicación funciona colocando en el campo de text
   
 ![](https://raw.githubusercontent.com/SebastianValera/Convertidor_Medidas/master/Screenshots/Aplicacion.bmp)
 
+### Video de prueba
+En el proyecto se encuentra un video de prueba de ejecución llamado "Proyecto_Convertidor_Medidas.mp4".
+
 ## Planes a Futuro
 Se tiene contemplado extender el catálogo de medidas a convertir, expandiendo el uso cotidiano de este.
 
@@ -16,4 +19,4 @@ Se tiene contemplado extender el catálogo de medidas a convertir, expandiendo e
 Humberto Sebastián Valera Castro
 
 ## Estatus de desarrollo
-De momento, el desarrollo de este esta detenido, aunque contemplado para continuar en el futuro.
+Actualmente para el alcance de este esta finalizado, aunque puede existir la posibilidad de querer expandir el proyecto en el futuro.
